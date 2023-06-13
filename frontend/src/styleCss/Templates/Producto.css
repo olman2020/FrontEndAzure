@@ -1,0 +1,34 @@
+.container-GestionProducto {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .div-producto {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .boton-agregar {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para los mensajes de error */
+  .alert {
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el botón "Atrás" */
+  div > .btn-warning {
+    margin-top: 10px;
+  }
+  
+  div > .btn-warning > a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  div > .btn-warning > a:hover {
+    color: white;
+    text-decoration: none;
+  }

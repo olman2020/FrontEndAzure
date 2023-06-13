@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+.div-MainScreen{
+    background: linear-gradient(#222,#333,#666);
+}
+.div-img{
+    height: 98vh;
+    background-image: url("../../src/Components/assets/imagenPortada.jpg");
+    background-size:cover;
+    padding-top: 80px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+   /* clip-path: polygon(100% 0%, 75% 50%, 75% 50%, 50% 100%, 0 100%, 0 1%);*/
+}
+
+
+.titulo{
+    position: absolute;
+    top:100px;
+    font-size:50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto 5px;
+    animation-name: animacion-text;
+    animation-duration: 2s;
+}
+  
+ @keyframes animacion-text {
+    from{
+        left:0;
+
+    }
+    to{
+        left: 150px;
+    }
+ }
+.footer-icon{
+    text-align: center;
+}
+
+.titulo-central{
+    padding:20px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-size:2rem;
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
+
+.Cards{
+    border-style:hidden;
+    position:relative;
+    top:-75px;
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 5s ease;
+}
+.Cards .card-hijo:hover{
+    opacity: .7;
+    transform: scale(1.05);
+    filter:blur(5px);
+    overflow: hidden;
+
+}
+
+
+@media(max-width:768px){
+    .div-img,.Cards, .titulo-central{
+        display: none;
+    }
+    .footer-icon{
+        position: relative;
+        top:80vh
+        
+    }
+}

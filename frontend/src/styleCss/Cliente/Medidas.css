@@ -1,0 +1,10 @@
+.form-label{
+    color:black;
+    text-align:center;
+}
+.container-medidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
