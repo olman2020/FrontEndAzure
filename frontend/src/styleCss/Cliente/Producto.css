@@ -1,0 +1,17 @@
+.div-producto{
+   display: grid;
+   grid-template-rows: repeat(10,50px);
+   grid-template-columns: 200px 200px;
+   background:rgba(255,255,255,0.5);
+   grid-row-gap:20px;
+   grid-column-gap:50px;
+
+}
+
+.productoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}

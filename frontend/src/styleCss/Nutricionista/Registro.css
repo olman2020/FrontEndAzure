@@ -1,0 +1,51 @@
+/*input{
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    text-align: center;
+    outline: none;
+}
+*/
+label{
+    margin:2px;
+    padding-bottom: 50px;
+    display: inline-block;
+
+}
+
+.contenedor-registro-nutri{
+    background:url("/src/Components/assets/fondoRegistroNutri.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+
+    
+}
+.titulo-registro{
+    position:relative;
+    text-align: center;
+    top:150px;
+    left: 500px;
+    z-index: 100;
+}
+.form-registro-Nutri{
+    display: grid;
+    margin:auto;
+    position: relative;
+    top: 20px;
+    padding: 50px;
+    background-color: rgba(255, 255,255,0.2);
+    box-shadow: 1px 2px 5px 2px rgb(255, 255, 255);
+    background: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-template-rows: repeat(16,25px);
+    grid-template-columns: 150px  200px;   
+    grid-column-gap:2px ;
+    grid-row-gap:10px;
+    
+}

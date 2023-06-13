@@ -1,0 +1,11 @@
+.btn{
+    margin:2px
+}
+.registro-container {
+    background-image: linear-gradient(to bottom, #fff, #e8f0fe);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
